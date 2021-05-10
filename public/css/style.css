@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+.container_70 {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+.nav {
+    margin: 10px 0;
+}
+
+.nav li {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    margin: 0 5px;
+}
+
+.nav a {
+    color: black;
+}
+
+/* Home */
+.jumbo img {
+    width: 100vw;
+}
+
+/* News */
+.title_news {
+    text-align: center;
+    height: 60px;
+    background: #112B5B; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(-90deg, #112B5B, #1D4767); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #112B5B, #1D4767); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #112B5B, #1D4767); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #112B5B, #1D4767); /* Standard syntax (must be last) */
+}
+
+.title_news h1 {
+    line-height: 60px;
+    color: white;
+}
+
+.row_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box_news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: calc(99vw / 3);
+    height: calc(99vw / 3);
+    color: white;
+    background-color: rgb(62, 62, 248);
+}
+
+
+.box_news .more {
+    padding: 5px;
+    width: 120px;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer_desc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cl_left {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cl_right {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cl_right a {
+    color: #808080;
+}
+
+/* Hover */
+header .nav li:hover {
+    font-weight: bold;
+}
+
+.box_news .more:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+footer a:hover {
+    color:black;
+}
+
+
